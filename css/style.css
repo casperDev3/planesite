@@ -113,3 +113,28 @@ ul.header__link li{
 .hero__planes-block1:hover{
 	border-top: 0.5px solid #fff;
 }
+.about{
+	padding-top: 66px;
+	padding-bottom: 96px;
+}
+.about__text1{
+	font-size: 64px;
+	line-height: 1;
+	color: #09498F;
+}
+.about__text2{
+	font-size: 16px;
+	line-height: 1.5;
+	color: #343434;
+	margin-bottom: 36px;
+}
+.about__text3{
+	font-size: 15px;
+	line-height: 1.5;
+	color: #343434;
+}
+.mission{
+	padding-top: 90px;
+	padding-bottom: 68px;
+	background: linear-gradient(180deg, #2769B1 0%, #09498F 100%);;
+}
