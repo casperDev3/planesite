@@ -44,10 +44,11 @@ ul.header__link li{
 	padding-top: 72px;
 }
 .hero {
-	background: linear-gradient(180deg, #2769B1 0%, #09498F 100%);
-	color: #fff;
-	overflow-x: hidden;
+	background-image: url("../img/hero_bg.png");
+	background-size: cover;
+	background-position: center;	
 }
+
 .hero__title {
 	font-weight: 500;
 	font-size: 64px;
@@ -80,20 +81,6 @@ ul.header__link li{
 	font-weight: normal;
 	line-height: 1.2;
 	padding-right: 160px;
-}
-
-.hero__plane-holder {
-	position: relative;	
-}
-
-.hero__plane-holder img {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-.hero__plane-holder img.cloud {
-	mix-blend-mode: screen;
 }
 .hero__planes-text{
 	font-weight: bold;
