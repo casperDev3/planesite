@@ -1,6 +1,7 @@
 body {
 	/*background: blue;*/
 	font-family: 'Poppins', sans-serif;
+	margin: 0;
 }
 header {
 	position: fixed;
@@ -128,13 +129,116 @@ ul.header__link li{
 	color: #343434;
 	margin-bottom: 36px;
 }
-.about__text3{
+.about__text3 p{
 	font-size: 15px;
 	line-height: 1.5;
 	color: #343434;
 }
-.mission{
+/*.mission{
 	padding-top: 90px;
 	padding-bottom: 68px;
-	background: linear-gradient(180deg, #2769B1 0%, #09498F 100%);;
+	background: linear-gradient(180deg, #2769B1 0%, #09498F 100%);
+}*/
+.mission__bg{
+	padding-top: 90px;
+	padding-bottom: 60px;
+	background: linear-gradient(180deg, #2769B1 0%, #09498F 100%);
+}
+.mission__text1{
+	font-weight: 200;
+	font-size: 32px;
+	line-height: 1.5;
+	color: #FFFFFF
+}
+.mission__text2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 1.2;
+}
+.mission__more p{
+	margin: 0;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	color: #FFFFFF;
+}
+.mission__more img{
+	margin-left: 10px;
+}
+.products{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.products__title{
+	font-size: 64px;
+	line-height: 1;
+	color: #09498F;
+	margin-bottom: 28px;
+}
+.products__links{
+	margin-bottom: 58px;
+}
+.products__links a{
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #0C4C93;
+	margin: 0;
+	padding: 6px 30px;
+	margin-left: 16px;
+}
+.products__links a:hover{
+	color: #fff;
+	background: linear-gradient(180deg, #2769B1 0%, #09498F 100%);
+	border-radius: 8px;
+}
+.products__descp p{
+	font-size: 18px;
+	line-height: 1.5;
+}
+.products__descp{
+	position: relative;
+}
+.products__descp-circle{
+	position: absolute;
+	left: -20px;
+	top: 9px;
+	width: 10px;
+	height: 10px;
+	background-color: #2668B0;
+	border-radius: 50%;
+}
+.products__descp-circle.circle2{
+	position: absolute;
+	left: -20px;
+	top: 80px;
+}
+.products__descp-circle.circle3{
+	position: absolute;
+	left: -20px;
+	top: 122px;
+}
+.products__descp-circle.circle4{
+	position: absolute;
+	left: -20px;
+	top: 166px;
+}
+.products__more-link{
+	text-decoration: none;
+}
+.products__more{
+	background: linear-gradient(180deg, #2769B1 0%, #09498F 100%);
+	border-radius: 8px;
+	max-width: 338px;
+}
+.products__more p{
+	margin: 0;
+	padding-left: 40px;
+	margin: 32px 0px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.5px;
+	color: #FFFFFF;
 }
