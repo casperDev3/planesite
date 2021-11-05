@@ -242,3 +242,23 @@ ul.header__link li{
 	line-height: 1.5px;
 	color: #FFFFFF;
 }
+.partners{
+	padding-top: 24px;
+	padding-bottom: 52px;
+	background: #F8F8F8;
+}
+.partners__title{
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 2;
+	color: #09498F;
+	margin-bottom: 36px;
+}
+.partners__logo{
+	mix-blend-mode: multiply;
+	filter: grayscale(50%);
+}
+.partners__logo img{
+	max-width: 100%;
+	min-height: 100%;
+}
